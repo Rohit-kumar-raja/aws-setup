@@ -74,7 +74,7 @@ sudo usermod -d /srv/ftp/new_location ftp
 # Restart the vsftpd service to apply the changes:
 
 ```htm
-sudo
+sudo service vsftpd restart
 ```
 # Authenticate FTP Users
 ```html
